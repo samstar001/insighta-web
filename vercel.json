@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/auth/:path*",
+      "destination": "https://profile-intelligence-service-rcl7.vercel.app/auth/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://profile-intelligence-service-rcl7.vercel.app/api/:path*"
+    }
+  ]
+}
